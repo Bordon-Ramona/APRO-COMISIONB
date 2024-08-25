@@ -1,0 +1,53 @@
+
+.nav{
+    background-color: aqua;
+}
+.article-{
+    background-color: brown;
+    color: rgb(95, 152, 202);
+    border: 1px solid black;
+    border-radius: 0%;
+    transition: 100ms;
+    transition-property: background-color;
+    opacity: 0;
+}
+.article:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+    color: black;
+    border: 5px dashed green;
+    box-shadow: 1px 2px 3px 10px rgb(128,128,128);
+    opacity: 1;
+    scale: 1.2;
+}
+.footer{
+    background-color: blueviolet;
+}
+
+}
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+h2, p{
+    display: flex;
+    justify-content: center;
+}
+.div{
+    background-color:red ;
+    border:1px solid black ;
+    width: 1400px;
+    margin: 5px;
+}
+.div{
+    animation: div 2s infinite;
+}
+@keyframes div{
+    0%{
+       opacity: 0; 
+    }
+    100%{
+        opacity: 1;
+    }
+}
